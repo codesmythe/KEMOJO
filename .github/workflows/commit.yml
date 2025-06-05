@@ -1,0 +1,29 @@
+name: build
+on: [ push, pull_request ] 
+jobs:       
+  build:
+    runs-on: ubuntu-latest
+    steps:  
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+      - name: Install packages
+        run: |
+          sudo apt-get update
+          sudo apt install -y avr-libc cmake gcc-avr srecord
+      - name: Build ikbd.hex
+        run: |
+          mkdir firmware/build
+          cd firmware/build
+          cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=../cmake/toolchain.cmake ..
+          make
+      - name: Create ZIP file
+        run: |
+          mkdir kemojo_firmware
+          srec_cat firmware/build/ikbd.hex -intel -fill 0xFF 0x0 0x8000 -o kemojo_firmware/kemojo_firmware.hex -intel
+          srec_cat firmware/build/ikbd.hex -intel -fill 0xFF 0x0 0x8000 -o kemojo_firmware/kemojo_firmware.bin -binary
+          cp firmware/firmware.fuses.conf kemojo_firmware/kemojo_firmware.fuses.conf
+          zip -r kemojo_firmware.zip kemojo_firmware
+      - name: Stop
+        run: |
+          false
+ 

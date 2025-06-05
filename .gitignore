@@ -1,0 +1,6 @@
+hardware/KEMOJO-backups/
+hardware/KEMOJO.kicad_prl
+hardware/fp-info-cache
+firmware/cmake-build-debug-avr
+firmware/.vscode
+firmware/.idea
