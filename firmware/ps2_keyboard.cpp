@@ -99,6 +99,7 @@ void PS2Keyboard::begin(const int clk_pin, const int data_pin)
 
 void PS2Keyboard::set_caps_lock_led(const bool caps_lock_led)
 {
+#if 0
     // Send LED change command.
     ps2_write_byte(g_clk_pin, g_data_pin, 0xED);
     delayMicroseconds(100);
@@ -111,4 +112,5 @@ void PS2Keyboard::set_caps_lock_led(const bool caps_lock_led)
     // Read ack.
     ps2_read_byte(g_clk_pin, g_data_pin);
     delayMicroseconds(100);
+#endif
 }
