@@ -855,7 +855,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "KEMOJO_V1B",
       "pos_files": "",
       "specctra_dsn": "EIFFEL2014.dsn",
       "step": "",
@@ -866,7 +866,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "KEMOJO.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -897,7 +897,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -912,7 +912,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -925,20 +925,32 @@
         },
         {
           "group_by": false,
-          "label": "Mouser PN",
-          "name": "Mouser PN",
+          "label": "Description",
+          "name": "Description",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
+          "label": "PartVendor00",
+          "name": "PartVendor00",
+          "show": true
         },
         {
           "group_by": false,
-          "label": "Mouser PN 2",
-          "name": "Mouser PN 2",
+          "label": "PartVendor01",
+          "name": "PartVendor01",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PartNum00",
+          "name": "PartNum00",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PartNum01",
+          "name": "PartNum01",
           "show": true
         }
       ],
@@ -946,7 +958,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "PartVendor01"
     },
     "connection_grid_size": 50.0,
     "drawing": {

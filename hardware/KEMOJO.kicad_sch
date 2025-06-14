@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "KEMOJO: keyboard/mouse/joystick for RCBus")
-		(date "2024-11-29")
-		(rev "V1A")
+		(date "2025-06-12")
+		(rev "V1B")
 		(company "Licensed under CC-BY-NC-SA 4.0")
 		(comment 2 "This PCB design © 2024 Rob Gowin.")
 		(comment 3 "instead of a PIC. Eiffel page at http://didier.mequignon.free.fr/eiffel-e.htm")
@@ -11757,7 +11757,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 mm, yellow LED indicator"
+			(at 171.45 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "859-LTL-4251N"
+			(at 171.45 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 171.45 83.185 0)
 			(effects
 				(font
@@ -11824,7 +11842,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2x2 straight pin header"
+			(at 39.37 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "200-TSW10207TD"
+			(at 39.37 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 39.37 176.53 0)
 			(effects
 				(font
@@ -11964,7 +12000,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Circular 6-pin Mini Din Connector for PS/2"
+			(at 199.39 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "490-MD-40SM"
+			(at 199.39 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 199.39 83.185 0)
 			(effects
 				(font
@@ -12044,7 +12098,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1x6 right angle pin header"
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "737-PH1RB-06-UA"
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 187.96 148.59 0)
 			(effects
 				(font
@@ -12124,7 +12196,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "74LS04 in 14-pin DIP"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "595-SN74LS04NE4"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum01" "571-1-2199298-3"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor01" "Mouser"
 			(at 137.16 113.03 0)
 			(effects
 				(font
@@ -12229,7 +12337,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "D-Sub DE9 Male, right angle, PCB mount"
+			(at 61.595 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "523-L7SDE9PA4CH4RC39"
+			(at 61.595 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 61.595 52.705 0)
 			(effects
 				(font
@@ -12512,7 +12638,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2x3 straight pin header"
+			(at 186.055 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "200-TSW10307TD"
+			(at 186.055 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 186.055 17.78 0)
 			(effects
 				(font
@@ -12659,7 +12803,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 uF, MLCC, 5 mm Pitch"
+			(at 106.68 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "594-K104K15X7RF5WH5"
+			(at 106.68 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 106.68 26.035 0)
 			(effects
 				(font
@@ -12794,7 +12956,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 uF, MLCC, 5 mm Pitch"
+			(at 221.615 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "594-K104K15X7RF5WH5"
+			(at 221.615 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 221.615 160.02 0)
 			(effects
 				(font
@@ -12861,7 +13041,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ATmega328P MCU in 28-pin DIP"
+			(at 144.145 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "556-ATMEGA328P-PU"
+			(at 144.145 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
+			(at 144.145 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum01" "737-ICS-328-T"
+			(at 144.145 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor01" "Mouser"
 			(at 144.145 48.895 0)
 			(effects
 				(font
@@ -13006,7 +13222,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "74LS04 in 14-pin DIP"
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "595-SN74LS04NE4"
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum01" "571-1-2199298-3"
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor01" "Mouser"
 			(at 252.73 115.57 0)
 			(effects
 				(font
@@ -13109,7 +13361,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "74LS04 in 14-pin DIP"
+			(at 252.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "595-SN74LS04NE4"
+			(at 252.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
+			(at 252.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum01" "571-1-2199298-3"
+			(at 252.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor01" "Mouser"
 			(at 252.73 140.97 0)
 			(effects
 				(font
@@ -13215,7 +13503,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "D-Sub DE9 Male, right angle, PCB mount"
+			(at 234.315 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "523-L7SDE9PA4CH4RC39"
+			(at 234.315 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 234.315 42.545 0)
 			(effects
 				(font
@@ -13305,7 +13611,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "74LS04 in 14-pin DIP"
+			(at 234.315 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "595-SN74LS04NE4"
+			(at 234.315 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
+			(at 234.315 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum01" "571-1-2199298-3"
+			(at 234.315 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor01" "Mouser"
 			(at 234.315 133.35 0)
 			(effects
 				(font
@@ -13411,7 +13753,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 uF, MLCC, 5 mm Pitch"
+			(at 208.915 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "594-K104K15X7RF5WH5"
+			(at 208.915 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 208.915 160.02 0)
 			(effects
 				(font
@@ -13478,7 +13838,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "74LS04 in 14-pin DIP"
+			(at 252.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "595-SN74LS04NE4"
+			(at 252.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
+			(at 252.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum01" "571-1-2199298-3"
+			(at 252.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor01" "Mouser"
 			(at 252.73 128.27 0)
 			(effects
 				(font
@@ -13582,7 +13978,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2x4 straight pin header"
+			(at 84.455 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "200-TSW10407TD"
+			(at 84.455 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 84.455 65.405 0)
 			(effects
 				(font
@@ -13735,7 +14149,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 uF, MLCC, 5 mm Pitch"
+			(at 234.315 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "594-K104K15X7RF5WH5"
+			(at 234.315 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 234.315 160.02 0)
 			(effects
 				(font
@@ -13940,7 +14372,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2N7000  MOSFET in TO92"
+			(at 69.85 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "512-2N7000"
+			(at 69.85 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 69.85 191.77 0)
 			(effects
 				(font
@@ -14011,7 +14461,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Circular 6-pin Mini Din Connector for PS/2"
+			(at 199.39 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "490-MD-40SM"
+			(at 199.39 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 199.39 57.785 0)
 			(effects
 				(font
@@ -14090,7 +14558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TL16C550 UART in 44-pin PLCC"
 			(at 136.525 160.02 0)
 			(effects
 				(font
@@ -14099,7 +14567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser PN" "595-TL16C550CFNR"
+		(property "PartNum00" "595-TL16C550CFNR"
 			(at 136.525 160.02 0)
 			(effects
 				(font
@@ -14108,7 +14576,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser PN 2" "575-944424"
+		(property "PartVendor00" "Mouser"
+			(at 136.525 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum01" "575-944424"
+			(at 136.525 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor01" "Mouser"
 			(at 136.525 160.02 0)
 			(effects
 				(font
@@ -14366,7 +14852,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "7.3278 MHz can oscillator in 8-pin DIP"
+			(at 22.86 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "774-MXO45HS-3C-7.3"
+			(at 22.86 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
+			(at 22.86 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum01" "535-1108800"
+			(at 22.86 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor01" "Mouser"
 			(at 22.86 21.59 0)
 			(effects
 				(font
@@ -14439,7 +14961,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2x4 straight pin header"
+			(at 231.775 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "200-TSW10407TD"
+			(at 231.775 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 231.775 67.31 0)
 			(effects
 				(font
@@ -14589,7 +15129,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "74LS04 in 14-pin DIP"
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "595-SN74LS04NE4"
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum01" "571-1-2199298-3"
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor01" "Mouser"
 			(at 252.73 90.17 0)
 			(effects
 				(font
@@ -14692,7 +15268,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "74LS04 in 14-pin DIP"
+			(at 252.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "595-SN74LS04NE4"
+			(at 252.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
+			(at 252.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum01" "571-1-2199298-3"
+			(at 252.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor01" "Mouser"
 			(at 252.73 102.87 0)
 			(effects
 				(font
@@ -14795,7 +15407,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "470 ohm, axial, 1% tolerance, 1/4 W"
+			(at 163.83 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "603-MFR-25FTF52-470R"
+			(at 163.83 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 163.83 83.185 0)
 			(effects
 				(font
@@ -14931,7 +15561,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 uF, MLCC, 5 mm Pitch"
+			(at 247.015 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "594-K104K15X7RF5WH5"
+			(at 247.015 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 247.015 160.02 0)
 			(effects
 				(font
@@ -15197,7 +15845,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1x2 straight pin header"
+			(at 36.195 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "200-TSW10207TS"
+			(at 36.195 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 36.195 186.69 0)
 			(effects
 				(font
@@ -15332,7 +15998,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2x2 straight pin header"
+			(at 112.395 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "200-TSW10207TD"
+			(at 112.395 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 112.395 81.28 0)
 			(effects
 				(font
@@ -15667,7 +16351,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2x8 straight pin header"
+			(at 111.125 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "200-TSW10807TD"
+			(at 111.125 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 111.125 115.57 0)
 			(effects
 				(font
@@ -15778,7 +16480,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "74LS138 in 16-pin DIP"
+			(at 88.265 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "595-SN74LS138NE4"
+			(at 88.265 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
+			(at 88.265 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum01" "571-1-2199298-4"
+			(at 88.265 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor01" "Mouser"
 			(at 88.265 115.57 0)
 			(effects
 				(font
@@ -15890,7 +16628,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1x40 right angle pin header"
+			(at 13.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum00" "710-61304011021"
+			(at 13.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartVendor00" "Mouser"
 			(at 13.97 135.89 0)
 			(effects
 				(font
