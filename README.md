@@ -27,6 +27,8 @@ and communicates that protocol serially to an RCBus system via a
 
 ### Schematic
 
+The board was created using [Kicad](https://www.kicad.org) version 8.0.
+
 Click the image to download a PDF version of the schematic.
 
 [![Schematic](hardware/KEMOJO_schematic.png)](https://raw.githubusercontent.com/codesmythe/KEMOJO/refs/heads/main/hardware/KEMOJO_schematic.pdf)
@@ -65,15 +67,15 @@ To obtain a KEMOJO PCB, download these [Gerbers](https://raw.githubusercontent.c
 | ------------------ | -------------- | --- | ------------------------------------------ | ---------------------------------------------------------------------------------------- |
 | Capacitor          | C1,C2,C3,C4,C5 |   5 | 0.1 uF, MLCC, 5 mm Pitch                   | Mouser [594-K104K15X7RF5WH5](https://www.mouser.com/ProductDetail/594-K104K15X7RF5WH5)   |
 | Diode              | D1             |   1 | 3 mm, yellow LED indicator                 | Mouser [859-LTL-4251N](https://www.mouser.com/ProductDetail/859-LTL-4251N)               |
-| Jumper             | J1             |   1 | 2x3 straight pin header                    | Mouser [200-TSW10307TD](https://www.mouser.com/ProductDetail/200-TSW10307TD)             |
-| Jumper             | J2,J3          |   2 | D-Sub DE9 Male, right angle, PCB mount     | Mouser [523-L7SDE9PA4CH4RC39](https://www.mouser.com/ProductDetail/523-L7SDE9PA4CH4RC39) |
-| Jumper             | J4,J5          |   2 | Circular 6-pin Mini Din Connector for PS/2 | Mouser [490-MD-40SM](https://www.mouser.com/ProductDetail/490-MD-40SM)                   |
-| Jumper             | J6             |   1 | 1x6 right angle pin header                 | Mouser [737-PH1RB-06-UA](https://www.mouser.com/ProductDetail/737-PH1RB-06-UA)           |
-| Jumper             | J7,J8          |   2 | 2x4 straight pin header                    | Mouser [200-TSW10407TD](https://www.mouser.com/ProductDetail/200-TSW10407TD)             |
-| Jumper             | J9             |   1 | 2x8 straight pin header                    | Mouser [200-TSW10807TD](https://www.mouser.com/ProductDetail/200-TSW10807TD)             |
-| Jumper             | J10            |   1 | 2x2 straight pin header                    | Mouser [200-TSW10207TD](https://www.mouser.com/ProductDetail/200-TSW10207TD)             |
-| Jumper             | J11            |   1 | 1x40 right angle pin header                | Mouser [710-61304011021](https://www.mouser.com/ProductDetail/710-61304011021)           |
-| Jumper             | J12            |   1 | 2x2 straight pin header                    | Mouser [200-TSW10207TD](https://www.mouser.com/ProductDetail/200-TSW10207TD)             |
+| Connnector         | J1             |   1 | 2x3 straight pin header                    | Mouser [200-TSW10307TD](https://www.mouser.com/ProductDetail/200-TSW10307TD)             |
+| Connector          | J2,J3          |   2 | D-Sub DE9 Male, right angle, PCB mount     | Mouser [523-L7SDE9PA4CH4RC39](https://www.mouser.com/ProductDetail/523-L7SDE9PA4CH4RC39) |
+| Connector          | J4,J5          |   2 | Circular 6-pin Mini Din Connector for PS/2 | Mouser [490-MD-40SM](https://www.mouser.com/ProductDetail/490-MD-40SM)                   |
+| Connector          | J6             |   1 | 1x6 right angle pin header                 | Mouser [737-PH1RB-06-UA](https://www.mouser.com/ProductDetail/737-PH1RB-06-UA)           |
+| Jumper Block       | J7,J8          |   2 | 2x4 straight pin header                    | Mouser [200-TSW10407TD](https://www.mouser.com/ProductDetail/200-TSW10407TD)             |
+| Jumper Block       | J9             |   1 | 2x8 straight pin header                    | Mouser [200-TSW10807TD](https://www.mouser.com/ProductDetail/200-TSW10807TD)             |
+| Jumper Block       | J10            |   1 | 2x2 straight pin header                    | Mouser [200-TSW10207TD](https://www.mouser.com/ProductDetail/200-TSW10207TD)             |
+| Connector          | J11            |   1 | 1x40 right angle pin header                | Mouser [710-61304011021](https://www.mouser.com/ProductDetail/710-61304011021)           |
+| Jumper Block       | J12            |   1 | 2x2 straight pin header                    | Mouser [200-TSW10207TD](https://www.mouser.com/ProductDetail/200-TSW10207TD)             |
 | Jumper             | JP4            |   1 | 1x2 straight pin header                    | Mouser [200-TSW10207TS](https://www.mouser.com/ProductDetail/200-TSW10207TS)             |
 | Transistor         | Q1             |   1 | 2N7000  MOSFET in TO92                     | Mouser [512-2N7000](https://www.mouser.com/ProductDetail/512-2N7000)                     |
 | Resistor           | R11            |   1 | 470 ohm, axial, 1% tolerance, 1/4 W        | Mouser [603-MFR-25FTF52-470R](https://www.mouser.com/ProductDetail/603-MFR-25FTF52-470R) |
