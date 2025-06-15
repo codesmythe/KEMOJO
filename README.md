@@ -31,6 +31,10 @@ Click the image to download a PDF version of the schematic.
 
 [![Schematic](hardware/KEMOJO_schematic.png)](hardware/KEMOJO_schematic.pdf)
 
+### Gerbers
+
+Gerber files are available [here](hardware/KEMOJO_V1B.zip).
+
 ### Connectors
 
 | Reference | Description                                                  |
@@ -54,6 +58,8 @@ Click the image to download a PDF version of the schematic.
 ### Bill of Materials
 
 [Text file parts list](hardware/KEMOJO_mouser.txt) for pasting into the [Mouser BOM tool](https://www.mouser.com/Bom/Upload) (login required).
+
+Check out the [interactive BOM](https://htmlpreview.github.io/?https://github.com/codesmythe/KEMOJO/tree/main/hardware/bom/ibom_V1B.html) for the board.
 
 | Component Type     | Reference      | Qty | Description                                | Part                                                                                     |
 | ------------------ | -------------- | --- | ------------------------------------------ | ---------------------------------------------------------------------------------------- |
