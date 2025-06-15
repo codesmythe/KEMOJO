@@ -54,7 +54,7 @@ Click the image to download a PDF version of the schematic.
 
 ### Bill of Materials
 
-[Text file parts list](hardware/KEMOJO_mouser.txt) for pasting into the [Mouser BOM tool](https://www.mouser.com/Bom/Upload) (login required).
+[Text file parts list](hardware/KEMOJO_mouser.txt) for pasting into the [Mouser BOM tool](https://www.mouser.com/Bom/CopyPaste) (login required).
 
 Check out the [interactive BOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/codesmythe/KEMOJO/refs/heads/main/hardware/bom/ibom_V1B.html)
 for the board.
