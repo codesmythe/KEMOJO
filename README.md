@@ -29,11 +29,11 @@ and communicates that protocol serially to an RCBus system via a
 
 Click the image to download a PDF version of the schematic.
 
-[![Schematic](hardware/KEMOJO_schematic.png)](hardware/KEMOJO_schematic.pdf)
+[![Schematic](hardware/KEMOJO_schematic.png)](https://raw.githubusercontent.com/codesmythe/KEMOJO/refs/heads/main/hardware/KEMOJO_schematic.pdf)
 
 ### Gerbers
 
-Gerber files are available [here](hardware/KEMOJO_V1B.zip).
+Gerber files are available [here](https://raw.githubusercontent.com/codesmythe/KEMOJO/refs/heads/main/hardware/KEMOJO_V1B.zip)
 
 ### Connectors
 
@@ -59,7 +59,8 @@ Gerber files are available [here](hardware/KEMOJO_V1B.zip).
 
 [Text file parts list](hardware/KEMOJO_mouser.txt) for pasting into the [Mouser BOM tool](https://www.mouser.com/Bom/Upload) (login required).
 
-Check out the [interactive BOM](https://htmlpreview.github.io/?https://github.com/codesmythe/KEMOJO/tree/main/hardware/bom/ibom_V1B.html) for the board.
+Check out the [interactive BOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/codesmythe/KEMOJO/refs/heads/main/hardware/bom/ibom_V1B.html)
+for the board.
 
 | Component Type     | Reference      | Qty | Description                                | Part                                                                                     |
 | ------------------ | -------------- | --- | ------------------------------------------ | ---------------------------------------------------------------------------------------- |
@@ -90,6 +91,10 @@ Check out the [interactive BOM](https://htmlpreview.github.io/?https://github.co
 
 
 ## Acknowledgements
+
+This project has initially inspired by the [Atari ST Eiffel 3](http://didier.mequignon.free.fr/eiffel-e.htm)
+project. I've replaced the PIC microcontroller in that project with
+an easier-to-use ATmega 328P.
 
 The low-level PS/2 code watches the PS/2 keyboard and mouse clock
 lines for transitions and signals an interrupt the ATmega. This code
