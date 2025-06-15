@@ -31,9 +31,6 @@ Click the image to download a PDF version of the schematic.
 
 [![Schematic](hardware/KEMOJO_schematic.png)](https://raw.githubusercontent.com/codesmythe/KEMOJO/refs/heads/main/hardware/KEMOJO_schematic.pdf)
 
-### Gerbers
-
-Gerber files are available [here](https://raw.githubusercontent.com/codesmythe/KEMOJO/refs/heads/main/hardware/KEMOJO_V1B.zip)
 
 ### Connectors
 
@@ -61,6 +58,8 @@ Gerber files are available [here](https://raw.githubusercontent.com/codesmythe/K
 
 Check out the [interactive BOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/codesmythe/KEMOJO/refs/heads/main/hardware/bom/ibom_V1B.html)
 for the board.
+
+To obtain a KEMOJO PCB, download these [Gerbers](https://raw.githubusercontent.com/codesmythe/KEMOJO/refs/heads/main/hardware/KEMOJO_V1B.zip) for use at your preferred PCB manufacturer. I use JLCPCB. 
 
 | Component Type     | Reference      | Qty | Description                                | Part                                                                                     |
 | ------------------ | -------------- | --- | ------------------------------------------ | ---------------------------------------------------------------------------------------- |
